@@ -23,6 +23,7 @@ def predict_digit():
     top = (28 - digit.height) // 2
     new_img.paste(digit, (left, top))
 
+    # save image to check result
     #new_img.save("model_input_28x28.png")
 
     # show 28*28 image
